@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PythonPatternDrawing_miniProject.iml" filepath="$PROJECT_DIR$/.idea/PythonPatternDrawing_miniProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PythonPatternDrawing-miniProject.iml" filepath="$PROJECT_DIR$/.idea/PythonPatternDrawing-miniProject.iml" />
     </modules>
   </component>
 </project>
