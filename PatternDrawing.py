@@ -1,5 +1,6 @@
 # 🖼️ Python Pattern Drawing Project
 print("🌟 Welcome to the Python Pattern Drawing Program!")
+exit_program = False
 while True:
 
     print("Choose a pattern type:")
@@ -101,10 +102,18 @@ while True:
                 print("*" + (width - 2) * " " + "*")
 
 
-
-    new_choice = input("Do you want to try again? (Yes or No)")
-    if new_choice == "No":
-        print("Good bye!")
-        break
-    elif new_choice != "Yes":
+    while True:
         new_choice = input("Do you want to try again? (Yes or No)")
+        if new_choice == "No":
+            exit_program = True
+            print("Good bye!")
+            break
+        elif new_choice == "Yes":
+            break
+        else:
+            print("Please enter valid answer!")
+            continue
+
+    if exit_program:
+        break
+
