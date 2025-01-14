@@ -48,17 +48,16 @@ while True:
         star = "*"
         space = " "
 
-        half_size = size // 2
 
-        for i in range(1, size + 1, 2):
+        for i in range(1, rows + 1, 2):
             stars_count = 1 * i
-            space_count = (size - stars_count) // 2
+            space_count = (rows - stars_count) // 2
 
             print(space * space_count + star * stars_count + space * space_count)
 
-        for j in range(size - 2, 0, -2):
+        for j in range(rows - 2, 0, -2):
             stars_count = 1 * j
-            space_count = (size - stars_count) // 2
+            space_count = (rows - stars_count) // 2
 
             print(space * space_count + star * stars_count + space * space_count)
 
