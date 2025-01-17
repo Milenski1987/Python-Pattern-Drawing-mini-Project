@@ -48,18 +48,20 @@ while True:
         star = "*"
         space = " "
 
+        max_symbols = rows * 2 - 1
+        stars_count = 1
 
-        for i in range(1, rows + 1, 2):
-            stars_count = 1 * i
-            space_count = (rows - stars_count) // 2
 
-            print(space * space_count + star * stars_count + space * space_count)
+        for i in range(rows):
+            spaces_count = (max_symbols - stars_count) // 2
+            print(space * spaces_count + star * stars_count)
+            if i != rows - 1:
+                stars_count += 2
 
-        for j in range(rows - 2, 0, -2):
-            stars_count = 1 * j
-            space_count = (rows - stars_count) // 2
-
-            print(space * space_count + star * stars_count + space * space_count)
+        for _ in range(1, rows):
+            stars_count -= 2
+            spaces_count = (max_symbols - stars_count) // 2
+            print(space * spaces_count + star * stars_count)
 
     elif choice == 4:
         for i in range(rows, 0, -1):
