@@ -105,11 +105,11 @@ while True:
 
     while True:
         new_choice = input("Do you want to try again? (Yes or No)")
-        if new_choice == "No":
+        if new_choice.lower() == "no":
             exit_program = True
             print("Good bye!")
             break
-        elif new_choice == "Yes":
+        elif new_choice.lower() == "yes":
             break
         else:
             print("Please enter valid answer!")
