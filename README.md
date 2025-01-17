@@ -1,9 +1,9 @@
-🖼️ Python Pattern Drawing Project
+## 🖼️ Python Pattern Drawing Project
 
 Welcome to the Python Pattern Drawing Project! 🎉 This project is part of my Python Fundamentals education in SoftUni.
 
 
-📋 Instructions
+# 📋 Instructions
 
 1️⃣ Run the Program
 Start the program and choose a pattern from the menu.
