@@ -1,21 +1,21 @@
 ## 🖼️ Python Pattern Drawing Project
 
-Welcome to the Python Pattern Drawing Project! 🎉 This project is part of my Python Fundamentals education in SoftUni.
+Welcome to the Python Pattern Drawing Project! 🎉
 
 
 ### 📋 What you can do with this program:
 
 * Run the Program:
-Start the program and choose a pattern from the menu.
+Users can start the program and choose a pattern from the menu.
 
 * Input Dimensions:
-Provide necessary inputs.
+The user provides the necessary inputs.
 
 * See the Result:
-Enjoy the output directly in your terminal.
+The pattern will be drawn in the terminal.
 
 * Save pattern :
-Save pattern in file on your computer.
+Users have a choice to Save the pattern in a file on their computer.
 
 * Try Again!:
-You can run the program again to explore different patterns.
+Users can run the program again to explore different patterns.
