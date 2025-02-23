@@ -1,6 +1,11 @@
 ## 🖼️ Python Pattern Drawing Project
 ### Made by [Milen Nikolov](https://www.linkedin.com/in/milen-nikolov-62455034b/)
 
+
+![image](https://github.com/user-attachments/assets/6738608c-70f9-42a4-a18f-624f0fb84bdb)
+
+
+
 Welcome to the Python Pattern Drawing Project! 🎉
 
 
