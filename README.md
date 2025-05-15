@@ -16,7 +16,7 @@ Users can start the program and choose a pattern from the menu.
 
 * Input Dimensions:
 The user provides the necessary inputs.
-
+222
 * See the Result:
 The pattern will be drawn in the terminal.
 
